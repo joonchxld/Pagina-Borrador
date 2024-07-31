@@ -1,0 +1,88 @@
+/* Selector de etiqueta::after
+
+Vamos a seleccionar el elemento por su nombre y va a cambiar a todos los que se llamen igual. */
+
+body{
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721088000&semt=sph);
+    background-color: antiquewhite;
+    color: black;
+}
+
+h1{
+    color: crimson;
+}
+
+/* Selector de clase:
+
+Nosotras vamos a elegir el nombre de la clase,
+y se la vamos a poner a las etiquetas por medio
+del atributo class="nombre-clase".
+
+Y le voy a cambiar las propiedades a ese elemento llamándolos
+por el operador(símbolo) punto. */
+
+.BTS{
+    border: 10px solid #000;
+}
+
+/* le estamos dando más formato a las imágenes
+que sean de la clase "mascota" */
+.mascota {
+    margin: 16px;
+    padding: 16px;
+    border: 15px solid #000;
+    width: 200px;
+    height: auto;
+}
+
+.inline {
+    display: inline;
+}
+
+.texto-centrado{
+    text-align: center;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+/* Selector de ID
+
+Este selector me ayudará a editar un elemento a la vez,
+es para cuando sólo queremos hacer cambios a un elemento.
+
+Va a cambiar la etiqueta con el atributo
+id="nombre-id"
+
+Y vamos a llamar al elemento por
+el operador numeral.
+
+#nombre-id
+
+*/
+
+#logo{
+    width: 150px;
+}
+
+#navegacion{
+    display: inline;
+}
+
+/* Selector combinado
+aquí podemos filtrar por más de una opción
+*/
+
+#navegacion li{
+    display: inline;
+}
+/* está indicando que a todas las listas
+se le van a aplicar esos cambios, pero
+está filtrado por la etiqueta navegación,
+entonces es a todas las listas con etiqueta
+de navegación */
+
+.texto-justificado{
+    text-align: justify;
+}
