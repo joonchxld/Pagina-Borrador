@@ -3,13 +3,13 @@
 Vamos a seleccionar el elemento por su nombre y va a cambiar a todos los que se llamen igual. */
 
 body{
-    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721088000&semt=sph);
-    background-color: antiquewhite;
+    background-image: url(https://i.pinimg.com/originals/0c/d7/6e/0cd76ef1916677f0eb54dca33c0d967b.jpg);
+    background-color: white;
     color: black;
 }
 
 h1{
-    color: crimson;
+    color: grey;
 }
 
 /* Selector de clase:
